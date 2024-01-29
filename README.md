@@ -1,71 +1,58 @@
-# github-app
-[![Android Studio](https://img.shields.io/badge/Android%20Studio%20Giraffe-2022.3.1-green?logo=android)](https://developer.android.com/studio)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.8.0-blue?logo=kotlin)](https://kotlinlang.org/)
-[![Gradle](https://img.shields.io/badge/Gradle-8.0-blue?logo=gradle)](https://gradle.org/)
-[![OpenJDK](https://img.shields.io/badge/OpenJDK-17%20GA-orange?logo=openjdk)](https://openjdk.java.net/projects/jdk17/)
+# GitHub App
+GitHub App is an Android application designed to assist users in searching for account details on GitHub by entering their username. Build with [Android Studio](https://developer.android.com/studio).
 
-github-app is an Android application that leverages fundamental Android components and libraries, including Fragments and Retrofit, to display a list of users on [github.com](https://github.com/) through the [GitHub REST API](https://docs.github.com/en/rest). For a comprehensive understanding of the components and libraries used, refer to the code.
+## Features
+- **Search User:** Find someone by entering their username in the search bar
+- **User Details:** View comprehensive account information by visiting their profile
+- **Favorite Users:** Mark your favorite users for easy access
+- **Theme Settings:** Customize the app's theme to suit your preferences
 
----
+## Demo 
+![GitHub App GIF](https://github.com/raflizocky/github-app/blob/main/images/github-app.gif)
 
-## Installation
-Download and install beta version [here](https://github.com/raflizocky/history-app/releases/download/v1.0-beta/app-debug.apk)
+## Tech Stack
+- [Kotlin](https://kotlinlang.org/) – language
+- [MVVM](https://www.youtube.com/watch?v=FrteWKKVyzI) – architectural pattern
+- [Room](https://developer.android.com/training/data-storage/room) - database
+- [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - data storage
 
----
+## Getting Started
+### Prerequisites
+Here's what you need to be able to run GitHub App:
+- Android Studio (https://developer.android.com/studio/install)
+- Android Device/Emulator (I use Devices, if [Emulator](https://developer.android.com/studio/run/emulator))
+- Gradle (https://gradle.org/releases/)
+- JDK (I use [OpenJDK](https://openjdk.org/))
+- GitHub REST API (https://docs.github.com/en/rest)
 
-## Demo    
-<h3 align="center"> Light Mode </h3>
-<p align="center">
-    <img src="assets/app-light-splash-screen.jpg"
-        alt="Light Splash Screen"    
-        style="margin-right: 10px;"    
-        width="200" />
-    <img src="assets/app-light-home-page.jpg"
-        alt="Light Home Page Screen"    
-        style="margin-right: 10px;"    
-        width="200" />
-    <img src="assets/app-light-detail-page.jpg"
-        alt="Light About Page Screen"    
-        style="margin-right: 10px;"    
-        width="200" />
-    <img src="assets/app-light-favorite-page.jpg"
-        alt="Search Screen Action GIF"    
-        style="margin-right: 10px;"    
-        width="200" />
-  <br/>
-    <img src="assets/app-light-theme-page.jpg"
-        alt="Search Screen Action GIF"    
-        style="margin-right: 10px;"    
-        width="200" />
-</p>
+### 1. Clone the repository
+```shell
+https://github.com/raflizocky/github-app.git
+```
 
-<h3 align="center"> Dark Mode </h3>
-<p align="center">
-    <img src="assets/app-dark-splash-screen.jpg"
-        alt="Light Splash Screen"    
-        style="margin-right: 10px;"    
-        width="200" />
-    <img src="assets/app-dark-home-page.jpg"
-        alt="Light Home Page Screen"    
-        style="margin-right: 10px;"    
-        width="200" />
-    <img src="assets/app-dark-detail-page.jpg"
-        alt="Light About Page Screen"    
-        style="margin-right: 10px;"    
-        width="200" />
-    <img src="assets/app-dark-favorite-page.jpg"
-        alt="Search Screen Action GIF"    
-        style="margin-right: 10px;"    
-        width="200" />
-  <br/>
-    <img src="assets/app-dark-theme-page.jpg"
-        alt="Search Screen Action GIF"    
-        style="margin-right: 10px;"    
-        width="200" />
-</p>
+### 2. Configure the variables in `local.properties`
+| Variable | Value |
+|---|---|
+| sdk_dir | < Your sdk location > |
+| API_KEY | < [GitHub API KEY](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) > |
+| BASE_URL | < [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) > |
 
-## Pull Requests
-Feel free to contribute to this repository by creating pull requests to add new features or demonstrate library usage.
+### 3. Run the app
 
-## Support Me
-> Just **star** or **fork** this repository and follow my GitHub. Your support means a lot!
+## Contributing
+
+Github App is an Android project and welcome contributions from the community.
+
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+
+### Our Contributors ✨
+
+<a href="https://github.com/raflizocky/github-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=raflizocky/github-app" />
+</a>
+
+
+## Inspiration
+
+- [Android Developer guides](https://developer.android.com/guide) -  Reference materials and documentation for Android app development
+- [Belajar Fundamental Aplikasi Android](https://www.dicoding.com/academies/14/corridor) - Android Application Fundamentals Course

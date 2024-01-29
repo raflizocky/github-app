@@ -15,6 +15,7 @@ GitHub App is an Android application designed to assist users in searching for a
 - [MVVM](https://www.youtube.com/watch?v=FrteWKKVyzI) – architectural pattern
 - [Room](https://developer.android.com/training/data-storage/room) - database
 - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - data storage
+- [Fragment](https://developer.android.com/guide/fragments) - ui component
 
 ## Getting Started
 ### Prerequisites
@@ -50,7 +51,6 @@ If you'd like to contribute, please fork the repository and make changes as you'
 <a href="https://github.com/raflizocky/github-app/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=raflizocky/github-app" />
 </a>
-
 
 ## Inspiration
 

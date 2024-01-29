@@ -56,4 +56,4 @@ If you'd like to contribute, please fork the repository and make changes as you'
 ## Inspiration
 
 - [Android Developer guides](https://developer.android.com/guide) -  Reference materials and documentation for Android app development
-- [Belajar Fundamental Aplikasi Android](https://www.dicoding.com/academies/14/corridor) - Android Application Fundamentals Course
+- [Belajar Fundamental Aplikasi Android](https://www.dicoding.com/academies/14) - Android Application Fundamentals Course

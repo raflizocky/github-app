@@ -15,7 +15,7 @@ GitHub App is an Android application designed to assist users in searching for a
 - [MVVM](https://www.youtube.com/watch?v=FrteWKKVyzI) – architectural pattern
 - [Room](https://developer.android.com/training/data-storage/room) - database
 - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - data storage
-- [Fragment](https://developer.android.com/guide/fragments) - ui component
+- [Fragment](https://developer.android.com/guide/fragments) - UI component
 
 ## Getting Started
 ### Prerequisites
@@ -23,7 +23,7 @@ Here's what you need to be able to run GitHub App:
 - Android Studio (https://developer.android.com/studio/install)
 - Android Device/Emulator (I use Devices, if [Emulator](https://developer.android.com/studio/run/emulator))
 - Gradle (https://gradle.org/releases/)
-- JDK (I use [OpenJDK](https://openjdk.org/))
+- JDK (I use [OpenJDK](https://openjdk.org/), if [OracleJDK](https://www.oracle.com/java/technologies/downloads/))
 - GitHub REST API (https://docs.github.com/en/rest)
 
 ### 1. Clone the repository
@@ -39,10 +39,11 @@ https://github.com/raflizocky/github-app.git
 | BASE_URL | < [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) > |
 
 ### 3. Run the app
+Fill in the necessary details in the ```local.properties``` file, then [run the app](https://developer.android.com/studio/run).
 
 ## Contributing
 
-Github App is an Android project and welcome contributions from the community.
+GitHub App is an Android project and welcomes contributions from the community.
 
 If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
 

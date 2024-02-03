@@ -13,6 +13,7 @@ GitHub App is an Android application designed to assist users in searching for a
 ## Tech Stack
 - [Kotlin](https://kotlinlang.org/) – language
 - [MVVM](https://www.youtube.com/watch?v=FrteWKKVyzI) – architectural pattern
+- [Retrofit](https://square.github.io/retrofit/) - networking (API)
 - [Room](https://developer.android.com/training/data-storage/room) - database
 - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - data storage
 - [Fragment](https://developer.android.com/guide/fragments) - UI component
